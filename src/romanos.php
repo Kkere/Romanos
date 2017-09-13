@@ -1,5 +1,9 @@
 <?php
 
+namespace Ejemplo;
+
+use PHPUnit\Framework\TestCase;
+
 class convert{
 
     public function convertir($x){
