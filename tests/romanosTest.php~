@@ -4011,10 +4011,10 @@ class romanosTest extends TestCase {
 ];
 
   public function testNumero() {
-    $c = new convert;
+    $convertidor = new convertidor;
     
     for ( $i=1 ; $i<=3999 ; $i++ ){
-    $this->assertEquals($c->convertir($i), $this->numeros[$i]);
+    $this->assertEquals($convertidor->convertir($i), $this->numeros[$i]);
 	
 	}
   }
